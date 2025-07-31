@@ -1,0 +1,71 @@
+
+
+.billing-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.billing-form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.item-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 500px) {
+  .item-row {
+    flex-direction: column;
+  }
+}
